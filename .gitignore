@@ -1,0 +1,26 @@
+# ─── macOS ────────────────────────────────────────────────────────────────
+# Icon files
+Icon?
+# Finder metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+# Spotlight metadata
+.metadata_never_index
+# Thumbnails cache (Windows, but often grouped here)
+Thumbs.db
+
+# ─── Emacs ────────────────────────────────────────────────────────────────
+# Backup files
+*~
+# Auto-save files
+#   foo.txt   →   #foo.txt#
+#   foo.txt   →   .#foo.txt
+\#*\#
+.\#*
+# Sessions & desktop saves
+.emacs.desktop
+.emacs.desktop.lock
+# Optional: auto-save-list directory
+auto-save-list/
+
