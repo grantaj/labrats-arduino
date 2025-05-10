@@ -5,7 +5,20 @@
 This is the repository for documentation and code for the
 [Arduino for Musicians Workshop](
 https://immersivelightandart.com.au/event/lab-rats-x-alex-grant-arduino-for-music-production-workshop-series/)
-held at [Immersive Light and Art](https://immersivelightandart.com.au/), Adelaide, May-June 2025.
+held at [Immersive Light and
+Art](https://immersivelightandart.com.au/), Adelaide, May-June 2025.
+
+# Get the Code
+You can download a .zip archive of this repository by clicking on the
+green "<> Code" button at the top of the [GitHub repo
+page](https://github.com/grantaj/labrats-arduino) and selecting
+Download ZIP.
+
+If you have `git` installed, you probably know what to do...
+```
+git clone https://github.com/grantaj/labrats-arduino.git
+```
+Materials will be updated each week.
 
 # Workshop Plan 
 
