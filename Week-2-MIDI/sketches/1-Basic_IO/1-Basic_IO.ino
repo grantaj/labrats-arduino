@@ -22,5 +22,10 @@ void loop()
         MIDI.sendNoteOff(42, 0, 1);     // Stop the note
         digitalWrite(LED_BUILTIN, LOW);
         delay (100);
+        MIDI.sendNoteOn(44, 127, 1);    // Send a Note (pitch 42, velo 127 on channel 1)
+        delay(1000);		            // Wait for a second
+        MIDI.sendNoteOff(44, 0, 1);     // Stop the note
+        digitalWrite(LED_BUILTIN, LOW);
+        delay (100);
     }
 }
